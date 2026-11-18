@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/PlainBase.astro';
+import Template404Layout from '../layouts/Template404Layout.astro';
+import '../styles/generated/framework.css';
+import '../styles/generated/global.css';
+---
+<Base title="Page not found" noindex siteName="Teste de" lang="pt-PT">
+  <Fragment slot="head">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:locale" content="pt_PT" />
+    <meta name="author" content="Teste de" />
+  </Fragment>
+  <Template404Layout>
+
+  </Template404Layout>
+</Base>

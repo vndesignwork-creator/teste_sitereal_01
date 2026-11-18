@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/PlainBase.astro';
+import MainLayout from '../layouts/MainLayout.astro';
+import '../styles/generated/framework.css';
+import '../styles/generated/global.css';
+---
+<Base title="Home" siteName="Teste de" lang="pt-PT">
+  <Fragment slot="head">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:locale" content="pt_PT" />
+    <meta name="author" content="Teste de" />
+  </Fragment>
+  <MainLayout>
+    <section builder-data-element="section">
+      <div class="hero-sec" builder-data-element="container">
+        <div class="hero-sec__cont-texto" builder-data-element="container">
+          <h2 class="hero-sec__title" builder-data-element="heading">Heading</h2>
+          <p class="hero-sec__text" builder-data-element="text">Text goes here.</p>
+        </div>
+        <div class="hero-sec__cont-img" builder-data-element="container">
+          <figure class="hero-sec__figure cont-img__figure" builder-data-element="figure">
+            <img class="hero-sec__image" builder-data-element="image" src="/placeholder.svg" alt="" sizes="100vw" />
+          </figure>
+        </div>
+      </div>
+    </section>
+  </MainLayout>
+</Base>

@@ -1,0 +1,2132 @@
+{
+  "format": "sitereal",
+  "version": 7,
+  "site": {
+    "name": "Teste de",
+    "lang": "pt-PT",
+    "favicon": "/favicon.svg",
+    "seo": {
+      "sitemap": true,
+      "robots": true
+    },
+    "libraries": {
+      "starwind": {
+        "dirs": [
+          "src/components/starwind"
+        ],
+        "css": "src/styles/starwind.css"
+      }
+    },
+    "hosting": {}
+  },
+  "addons": {
+    "forms": true,
+    "popups": true,
+    "consent": true,
+    "carousel": true,
+    "search": true,
+    "social": false,
+    "shop": true,
+    "database": false
+  },
+  "framework": {
+    "enabled": true,
+    "config": {
+      "modules": {},
+      "colors": {
+        "primary": {
+          "hex": "#d06409",
+          "on": true
+        },
+        "secondary": {
+          "hex": "#22c55e",
+          "on": false
+        },
+        "tertiary": {
+          "hex": "#a855f7",
+          "on": false
+        },
+        "accent": {
+          "hex": "#ff6a3d",
+          "on": false
+        },
+        "base": {
+          "hex": "#0e1220",
+          "on": true
+        },
+        "neutral": {
+          "hex": "#0b0b0d",
+          "on": true
+        },
+        "success": {
+          "hex": "#22c55e",
+          "on": false
+        },
+        "warning": {
+          "hex": "#f59e0b",
+          "on": false
+        },
+        "info": {
+          "hex": "#3b82f6",
+          "on": false
+        },
+        "danger": {
+          "hex": "#ef4444",
+          "on": false
+        },
+        "white": {
+          "hex": "#ffffff",
+          "on": true
+        },
+        "black": {
+          "hex": "#000000",
+          "on": true
+        }
+      },
+      "unifiedLightness": null,
+      "transparencyVars": true,
+      "shadeVars": true,
+      "shadeStops": {
+        "ultraLight": 95,
+        "light": 85,
+        "medium": 50,
+        "dark": 25,
+        "ultraDark": 10,
+        "hover": -8
+      },
+      "minVw": 375,
+      "maxVw": 1440,
+      "rootFontSize": 100,
+      "typeMinSize": 16,
+      "typeMinRatio": 1.2,
+      "typeMaxSize": 18,
+      "typeMaxRatio": 1.25,
+      "headingMinSize": 18,
+      "headingMinRatio": 1.25,
+      "headingMaxSize": 20,
+      "headingMaxRatio": 1.333,
+      "sizeOverrides": {},
+      "colorOverrides": {},
+      "headingFont": "system-ui, sans-serif",
+      "textFont": "system-ui, sans-serif",
+      "textSize": "var(--text-m)",
+      "textColor": "var(--base-400)",
+      "textWeight": 400,
+      "textLineHeight": "1.6",
+      "headingWeight": 700,
+      "headingLineHeight": "1.1",
+      "headingColor": "var(--base-400)",
+      "spaceMinSize": 16,
+      "spaceMinRatio": 1.5,
+      "spaceMaxSize": 24,
+      "spaceMaxRatio": 1.5,
+      "sectionMinSize": 48,
+      "sectionMinRatio": 1.5,
+      "sectionMaxSize": 80,
+      "sectionMaxRatio": 1.5,
+      "contentWidth": "80rem",
+      "containerSpacing": "var(--space-l)",
+      "contentSpacing": "var(--space-m)",
+      "layoutFluid": false,
+      "contentWidthMin": 640,
+      "contentWidthMax": 1280,
+      "borderWidth": "1px",
+      "borderLight": "var(--neutral-200)",
+      "borderDark": "var(--neutral-400)",
+      "elementStyles": {},
+      "buttons": {
+        "baseClass": "btn",
+        "tokens": {},
+        "variants": [
+          {
+            "id": "primary",
+            "label": "Primary",
+            "kind": "color",
+            "color": "primary",
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "secondary",
+            "label": "Secondary",
+            "kind": "color",
+            "color": "secondary",
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "tertiary",
+            "label": "Tertiary",
+            "kind": "color",
+            "color": "tertiary",
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "accent",
+            "label": "Accent",
+            "kind": "color",
+            "color": "accent",
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "base",
+            "label": "Base",
+            "kind": "color",
+            "color": "base",
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "neutral",
+            "label": "Neutral",
+            "kind": "color",
+            "color": "neutral",
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "success",
+            "label": "Success",
+            "kind": "color",
+            "color": "success",
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "warning",
+            "label": "Warning",
+            "kind": "color",
+            "color": "warning",
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "info",
+            "label": "Info",
+            "kind": "color",
+            "color": "info",
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "danger",
+            "label": "Danger",
+            "kind": "color",
+            "color": "danger",
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "white",
+            "label": "White",
+            "kind": "color",
+            "color": "white",
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "black",
+            "label": "Black",
+            "kind": "color",
+            "color": "black",
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "theme",
+            "label": "Theme",
+            "kind": "color",
+            "color": "primary",
+            "themed": true,
+            "on": true,
+            "builtin": true
+          },
+          {
+            "id": "outline",
+            "label": "Outline",
+            "kind": "style",
+            "on": true,
+            "builtin": true,
+            "tokens": {
+              "background": "transparent",
+              "text-color": "var(--btn-tone)",
+              "border-color": "var(--btn-tone)",
+              "background-hover": "var(--btn-tone)",
+              "text-color-hover": "var(--btn-tone-contrast)",
+              "border-color-hover": "var(--btn-tone)",
+              "shadow": "none"
+            }
+          },
+          {
+            "id": "soft",
+            "label": "Soft",
+            "kind": "style",
+            "on": true,
+            "builtin": true,
+            "tokens": {
+              "background": "var(--btn-tone-soft)",
+              "text-color": "var(--btn-tone)",
+              "border-color": "transparent",
+              "background-hover": "var(--btn-tone)",
+              "text-color-hover": "var(--btn-tone-contrast)",
+              "shadow": "none"
+            }
+          },
+          {
+            "id": "text",
+            "label": "Text",
+            "kind": "style",
+            "on": true,
+            "builtin": true,
+            "tokens": {
+              "background": "transparent",
+              "text-color": "var(--btn-tone)",
+              "border-color": "transparent",
+              "background-hover": "var(--btn-tone-soft)",
+              "text-color-hover": "var(--btn-tone-hover)",
+              "border-color-hover": "transparent",
+              "shadow": "none",
+              "padding-inline": "0.4em"
+            }
+          },
+          {
+            "id": "pill",
+            "label": "Pill",
+            "kind": "style",
+            "on": true,
+            "builtin": true,
+            "tokens": {
+              "border-radius": "999px"
+            }
+          },
+          {
+            "id": "block",
+            "label": "Full width",
+            "kind": "style",
+            "on": true,
+            "builtin": true,
+            "tokens": {
+              "width": "100%"
+            }
+          },
+          {
+            "id": "xs",
+            "label": "Extra small",
+            "kind": "size",
+            "on": true,
+            "builtin": true,
+            "tokens": {
+              "font-size": "var(--text-xs)",
+              "padding-block": "0.5em",
+              "padding-inline": "0.9em"
+            }
+          },
+          {
+            "id": "s",
+            "label": "Small",
+            "kind": "size",
+            "on": true,
+            "builtin": true,
+            "tokens": {
+              "font-size": "var(--text-s)",
+              "padding-block": "0.65em",
+              "padding-inline": "1.1em"
+            }
+          },
+          {
+            "id": "l",
+            "label": "Large",
+            "kind": "size",
+            "on": true,
+            "builtin": true,
+            "tokens": {
+              "font-size": "var(--text-l)",
+              "padding-block": "0.9em",
+              "padding-inline": "1.6em"
+            }
+          },
+          {
+            "id": "xl",
+            "label": "Extra large",
+            "kind": "size",
+            "on": true,
+            "builtin": true,
+            "tokens": {
+              "font-size": "var(--text-xl)",
+              "padding-block": "1em",
+              "padding-inline": "2em"
+            }
+          }
+        ]
+      },
+      "bodyBg": "var(--white)",
+      "radius": "8px",
+      "imageRadius": "0px",
+      "shadowStrength": 0.18,
+      "motionDuration": 700,
+      "motionEase": "smooth",
+      "motionDistance": "32px",
+      "motionStagger": 90,
+      "motionPerspective": "900px",
+      "textures": [],
+      "themes": []
+    }
+  },
+  "variables": [],
+  "styles": [
+    {
+      "id": "glob-sheet-mwkydri3-2",
+      "name": "Global",
+      "rules": [
+        {
+          "selector": ".teste-class",
+          "css": "color: var(--accent-70); opacity: 0.92; display: block;"
+        },
+        {
+          "selector": ".Contanier-class-teste",
+          "css": "background: #b72626;\nblock-size: 100%;\nflex-direction: row;\njustify-content: center;\nalign-items: center;\npadding: var(--space-xl);\n\n@media (max-width: 768px) {\n\n}\n\n@media (max-width: 390px) {\n  flex-direction: column;\n}"
+        },
+        {
+          "selector": ".texto",
+          "css": "color: var(--primary-100);"
+        },
+        {
+          "selector": ".img",
+          "css": "background-image: url(\"/bolo-caseiro.jpg\");"
+        },
+        {
+          "selector": ".titulo",
+          "css": "text-decoration: underline;\nbackground: var(--white);\npadding: 10px;\nmargin: 20px;"
+        },
+        {
+          "selector": ".hero-sec__title",
+          "css": "display: block; transition: scale 200ms cubic-bezier(0.15, 1.08, 0.79, 0.44), translate 200ms cubic-bezier(0.15, 1.08, 0.79, 0.44);"
+        },
+        {
+          "selector": ".hero-sec",
+          "css": "flex-direction: row;\nbackground: var(--primary-60);\nmargin: 10px;\npadding: 20px;\nborder-radius: 20px;\nalign-self: center;"
+        },
+        {
+          "selector": ".hero-sec__title:hover",
+          "css": "translate: 0 6px; scale: 1.07;"
+        }
+      ]
+    }
+  ],
+  "fonts": [],
+  "icons": [],
+  "components": [
+    {
+      "id": "cmp-mwl1mr4x-1",
+      "name": "Tooltip",
+      "file": "own",
+      "path": "src/components/starwind/tooltip/Tooltip.astro",
+      "root": [
+        {
+          "id": "r-code-2b",
+          "tag": "astro-code",
+          "attrs": {
+            "builder-data-element": "code",
+            "data-open": "<TooltipPrimitive.Root\n  class={tooltip({ class: className })}\n  defaultOpen={defaultOpen}\n  closeDelay={closeDelay}\n  closeOnEscape={closeOnEscape}\n  closeOnOutsideInteract={closeOnOutsideInteract}\n  disabled={disabled}\n  disableHoverableContent={disableHoverableContent}\n  openDelay={openDelay}\n  {...rest}\n  data-slot=\"tooltip\"\n>",
+            "data-close": "</TooltipPrimitive.Root>"
+          },
+          "children": [
+            {
+              "id": "r-slot-2a",
+              "tag": "slot",
+              "attrs": {
+                "builder-data-element": "slot"
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "frontmatter": "import TooltipPrimitive from \"@starwind-ui/astro/tooltip\";\nimport type { HTMLAttributes } from \"astro/types\";\nimport { tooltip } from \"./variants\";\n\ntype Props = HTMLAttributes<\"div\"> & {\n  defaultOpen?: boolean;\n  closeDelay?: number;\n  closeOnEscape?: boolean;\n  closeOnOutsideInteract?: boolean;\n  disabled?: boolean;\n  disableHoverableContent?: boolean;\n  openDelay?: number;\n};\n\nconst {\n  defaultOpen = false,\n  closeDelay = 200,\n  closeOnEscape = true,\n  closeOnOutsideInteract = true,\n  disabled = false,\n  disableHoverableContent = false,\n  openDelay = 200,\n  class: className,\n  ...rest\n} = Astro.props;"
+    }
+  ],
+  "templates": [
+    {
+      "id": "tpl-mwky5uug-1",
+      "name": "Main",
+      "root": [
+        {
+          "id": "main-mwky5uug-1",
+          "tag": "main",
+          "attrs": {
+            "builder-data-element": "site-content",
+            "id": "main"
+          },
+          "children": [
+            {
+              "id": "page-content-mwky5uug-2",
+              "tag": "page-content",
+              "attrs": {
+                "builder-data-element": "page-content"
+              }
+            }
+          ]
+        }
+      ],
+      "stylesheets": [],
+      "applyTo": {
+        "all": true
+      }
+    },
+    {
+      "id": "tpl-mwky5uug-2",
+      "name": "404",
+      "root": [
+        {
+          "id": "main-mwky5uug-3",
+          "tag": "main",
+          "attrs": {
+            "builder-data-element": "site-content",
+            "id": "main"
+          },
+          "children": [
+            {
+              "id": "page-content-mwky5uug-4",
+              "tag": "page-content",
+              "attrs": {
+                "builder-data-element": "page-content"
+              }
+            }
+          ]
+        }
+      ],
+      "stylesheets": [],
+      "applyTo": {
+        "routes": [
+          "404"
+        ]
+      }
+    }
+  ],
+  "popups": [],
+  "forms": {
+    "enabled": true,
+    "forms": []
+  },
+  "snippets": [],
+  "collections": {
+    "collections": [
+      {
+        "id": "pages",
+        "name": "Pages",
+        "slug": "pages",
+        "fields": [
+          {
+            "id": "title",
+            "name": "Title",
+            "type": "text",
+            "builtin": true
+          },
+          {
+            "id": "route",
+            "name": "Route",
+            "type": "text",
+            "builtin": true
+          }
+        ],
+        "items": [
+          {
+            "id": "404",
+            "status": "live",
+            "created": "2026-11-18T11:40:15.520Z",
+            "values": {
+              "title": "Page not found",
+              "route": "404"
+            }
+          },
+          {
+            "id": "index",
+            "status": "live",
+            "created": "2026-11-18T11:40:15.521Z",
+            "values": {
+              "title": "Home",
+              "route": "index"
+            }
+          },
+          {
+            "id": "teste-de-pagina",
+            "status": "live",
+            "created": "2026-11-18T11:40:46.927Z",
+            "values": {
+              "title": "Teste de página",
+              "route": "teste-de-pagina"
+            }
+          },
+          {
+            "id": "teste-de-colecao",
+            "status": "live",
+            "created": "2026-11-18T11:44:50.262Z",
+            "values": {
+              "title": "Teste de coleção",
+              "route": "teste-de-colecao"
+            }
+          },
+          {
+            "id": "gta-6",
+            "status": "live",
+            "created": "2026-11-18T15:48:01.337Z",
+            "values": {
+              "title": "GTA 6 — Bem-vindo a Leonida",
+              "route": "gta-6"
+            }
+          }
+        ],
+        "settings": {
+          "public": false,
+          "queryable": false,
+          "archive": false
+        }
+      },
+      {
+        "id": "33pzziyz",
+        "name": "Teste de coleção",
+        "slug": "teste-de-colecao",
+        "fields": [
+          {
+            "id": "title",
+            "name": "Title",
+            "type": "text",
+            "builtin": true
+          },
+          {
+            "id": "slug",
+            "name": "Slug",
+            "type": "text",
+            "builtin": true
+          },
+          {
+            "id": "f-kqs3r2n",
+            "name": "img",
+            "key": "img",
+            "type": "image"
+          }
+        ],
+        "items": [
+          {
+            "id": "174j3e5a",
+            "status": "draft",
+            "created": "2026-11-18T11:45:58.043Z",
+            "values": {
+              "title": "dddddd",
+              "slug": "dddddd",
+              "f-kqs3r2n": "/uploads/bolo-caseiro.jpg",
+              "f-kqs3r2n:focus": "85% 15%"
+            }
+          }
+        ],
+        "settings": {
+          "public": false,
+          "queryable": true,
+          "archive": false,
+          "routeStyle": "folder",
+          "storageAuto": true
+        }
+      }
+    ],
+    "taxonomies": []
+  },
+  "sources": [],
+  "media": {
+    "collections": [],
+    "assets": {}
+  },
+  "pages": {
+    "404": {
+      "route": "404",
+      "title": "Page not found",
+      "root": [],
+      "stylesheets": [
+        {
+          "id": "global",
+          "name": "Global",
+          "rules": []
+        }
+      ]
+    },
+    "gta-6": {
+      "route": "gta-6",
+      "title": "GTA 6 — Bem-vindo a Leonida",
+      "root": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero"
+          ],
+          "attrs": {
+            "builder-data-element": "section",
+            "name": "Hero"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "classes": [
+                "hero__image"
+              ],
+              "attrs": {
+                "builder-data-element": "image",
+                "name": "Imagem do hero",
+                "src": "/uploads/gta6-jason-lucia.jpg",
+                "alt": "Jason e Lucia num descapotável de capota aberta, com o néon a refletir-se no para-brisas.",
+                "data-image-widths": "auto",
+                "sizes": "100vw",
+                "loading": "eager",
+                "fetchpriority": "high"
+              },
+              "name": "image",
+              "id": "img-mwmawqlc-792"
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "hero__inner"
+              ],
+              "children": [
+                {
+                  "tag": "p",
+                  "classes": [
+                    "hero__eyebrow"
+                  ],
+                  "text": "Rockstar Games apresenta",
+                  "attrs": {
+                    "builder-data-element": "text"
+                  },
+                  "name": "eyebrow",
+                  "id": "p-mwmapjl3-734"
+                },
+                {
+                  "tag": "h1",
+                  "classes": [
+                    "hero__title"
+                  ],
+                  "text": "Grand Theft Auto VI",
+                  "attrs": {
+                    "builder-data-element": "heading"
+                  },
+                  "name": "title",
+                  "id": "h1-mwmapjl3-735"
+                },
+                {
+                  "tag": "p",
+                  "classes": [
+                    "hero__lead"
+                  ],
+                  "text": "Bem-vindo a Leonida. Duas personagens, uma fuga e a cidade de Vice City como nunca a viu.",
+                  "attrs": {
+                    "builder-data-element": "text"
+                  },
+                  "name": "lead",
+                  "id": "p-mwmapjl3-736"
+                },
+                {
+                  "tag": "div",
+                  "classes": [
+                    "hero__actions"
+                  ],
+                  "children": [
+                    {
+                      "tag": "a",
+                      "classes": [
+                        "btn",
+                        "btn--primary",
+                        "btn--l"
+                      ],
+                      "attrs": {
+                        "builder-data-element": "link",
+                        "href": "#historia"
+                      },
+                      "text": "Descobrir a história",
+                      "id": "a-mwmapjl3-738"
+                    },
+                    {
+                      "tag": "a",
+                      "classes": [
+                        "btn",
+                        "btn--white",
+                        "btn--outline",
+                        "btn--l"
+                      ],
+                      "attrs": {
+                        "builder-data-element": "link",
+                        "href": "#personagens"
+                      },
+                      "text": "Conhecer Lucia e Jason",
+                      "id": "a-mwmapjl3-739"
+                    }
+                  ],
+                  "attrs": {
+                    "builder-data-element": "div"
+                  },
+                  "name": "actions",
+                  "id": "div-mwmapjl3-737"
+                }
+              ],
+              "attrs": {
+                "builder-data-element": "div"
+              },
+              "name": "inner",
+              "id": "div-mwmapjl3-733"
+            }
+          ],
+          "name": "hero",
+          "id": "section-mwmapjl3-732"
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "facts"
+          ],
+          "attrs": {
+            "builder-data-element": "section",
+            "name": "Factos"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "facts__inner"
+              ],
+              "children": [
+                {
+                  "tag": "ul",
+                  "classes": [
+                    "facts__list"
+                  ],
+                  "children": [
+                    {
+                      "tag": "li",
+                      "classes": [
+                        "facts__item"
+                      ],
+                      "children": [
+                        {
+                          "tag": "span",
+                          "classes": [
+                            "facts__label"
+                          ],
+                          "text": "Lançamento",
+                          "attrs": {
+                            "builder-data-element": "span"
+                          },
+                          "name": "label",
+                          "id": "span-mwmapjl3-744"
+                        },
+                        {
+                          "tag": "strong",
+                          "classes": [
+                            "facts__value"
+                          ],
+                          "text": "19 de novembro de 2026",
+                          "name": "value",
+                          "id": "strong-mwmapjl3-745",
+                          "attrs": {
+                            "builder-data-element": "span"
+                          }
+                        }
+                      ],
+                      "attrs": {
+                        "builder-data-element": "text"
+                      },
+                      "name": "item",
+                      "id": "li-mwmapjl3-743"
+                    },
+                    {
+                      "tag": "li",
+                      "classes": [
+                        "facts__item"
+                      ],
+                      "children": [
+                        {
+                          "tag": "span",
+                          "classes": [
+                            "facts__label"
+                          ],
+                          "text": "Plataformas",
+                          "attrs": {
+                            "builder-data-element": "span"
+                          },
+                          "name": "label",
+                          "id": "span-mwmapjl3-747"
+                        },
+                        {
+                          "tag": "strong",
+                          "classes": [
+                            "facts__value"
+                          ],
+                          "text": "PlayStation 5 e Xbox Series X|S",
+                          "name": "value",
+                          "id": "strong-mwmapjl3-748",
+                          "attrs": {
+                            "builder-data-element": "span"
+                          }
+                        }
+                      ],
+                      "attrs": {
+                        "builder-data-element": "text"
+                      },
+                      "name": "item",
+                      "id": "li-mwmapjl3-746"
+                    },
+                    {
+                      "tag": "li",
+                      "classes": [
+                        "facts__item"
+                      ],
+                      "children": [
+                        {
+                          "tag": "span",
+                          "classes": [
+                            "facts__label"
+                          ],
+                          "text": "Cenário",
+                          "attrs": {
+                            "builder-data-element": "span"
+                          },
+                          "name": "label",
+                          "id": "span-mwmapjl3-750"
+                        },
+                        {
+                          "tag": "strong",
+                          "classes": [
+                            "facts__value"
+                          ],
+                          "text": "Estado de Leonida",
+                          "name": "value",
+                          "id": "strong-mwmapjl3-751",
+                          "attrs": {
+                            "builder-data-element": "span"
+                          }
+                        }
+                      ],
+                      "attrs": {
+                        "builder-data-element": "text"
+                      },
+                      "name": "item",
+                      "id": "li-mwmapjl3-749"
+                    },
+                    {
+                      "tag": "li",
+                      "classes": [
+                        "facts__item"
+                      ],
+                      "children": [
+                        {
+                          "tag": "span",
+                          "classes": [
+                            "facts__label"
+                          ],
+                          "text": "Protagonistas",
+                          "attrs": {
+                            "builder-data-element": "span"
+                          },
+                          "name": "label",
+                          "id": "span-mwmapjl3-753"
+                        },
+                        {
+                          "tag": "strong",
+                          "classes": [
+                            "facts__value"
+                          ],
+                          "text": "Lucia e Jason",
+                          "name": "value",
+                          "id": "strong-mwmapjl3-754",
+                          "attrs": {
+                            "builder-data-element": "span"
+                          }
+                        }
+                      ],
+                      "attrs": {
+                        "builder-data-element": "text"
+                      },
+                      "name": "item",
+                      "id": "li-mwmapjl3-752"
+                    }
+                  ],
+                  "attrs": {
+                    "builder-data-element": "list"
+                  },
+                  "name": "list",
+                  "id": "ul-mwmapjl3-742"
+                }
+              ],
+              "attrs": {
+                "builder-data-element": "div"
+              },
+              "name": "inner",
+              "id": "div-mwmapjl3-741"
+            }
+          ],
+          "name": "facts",
+          "id": "section-mwmapjl3-740"
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "story"
+          ],
+          "attrs": {
+            "builder-data-element": "section",
+            "id": "historia",
+            "name": "História"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "story__inner"
+              ],
+              "children": [
+                {
+                  "tag": "h2",
+                  "classes": [
+                    "story__title"
+                  ],
+                  "text": "Um novo capítulo em Leonida",
+                  "attrs": {
+                    "builder-data-element": "heading"
+                  },
+                  "name": "title",
+                  "id": "h2-mwmapjl3-757"
+                },
+                {
+                  "tag": "p",
+                  "classes": [
+                    "story__text"
+                  ],
+                  "text": "Inspirado em Florida, o estado de Leonida mistura praias, pântanos, autoestradas e a luz de néon de Vice City. É o maior e mais detalhado mundo aberto que a Rockstar já criou, pensado para ser explorado a pé, de carro, de barco ou de avião.",
+                  "attrs": {
+                    "builder-data-element": "text"
+                  },
+                  "name": "text",
+                  "id": "p-mwmapjl3-758"
+                },
+                {
+                  "tag": "p",
+                  "classes": [
+                    "story__text"
+                  ],
+                  "text": "Quando um assalto corre mal, Lucia e Jason têm de confiar um no outro para sobreviver num submundo onde ninguém joga limpo.",
+                  "attrs": {
+                    "builder-data-element": "text"
+                  },
+                  "name": "text",
+                  "id": "p-mwmapjl3-759"
+                },
+                {
+                  "tag": "figure",
+                  "classes": [
+                    "story__figure"
+                  ],
+                  "attrs": {
+                    "builder-data-element": "figure",
+                    "name": "Figura da história"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "classes": [
+                        "story__image"
+                      ],
+                      "attrs": {
+                        "builder-data-element": "image",
+                        "name": "Imagem da história",
+                        "src": "/uploads/gta6-03-extended-look.jpg",
+                        "alt": "Lucia e Jason de lenço no rosto, junto a uma bomba de gasolina ao pôr do sol, com palmeiras e um carro de porta aberta.",
+                        "data-image-widths": "auto",
+                        "sizes": "(min-width: 80rem) 80rem, 100vw"
+                      },
+                      "name": "image",
+                      "id": "img-mwmb004g-796"
+                    }
+                  ],
+                  "name": "figure",
+                  "id": "figure-mwmb004g-795"
+                }
+              ],
+              "attrs": {
+                "builder-data-element": "div"
+              },
+              "name": "inner",
+              "id": "div-mwmapjl3-756"
+            }
+          ],
+          "name": "story",
+          "id": "section-mwmapjl3-755"
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "cast"
+          ],
+          "attrs": {
+            "builder-data-element": "section",
+            "id": "personagens",
+            "name": "Personagens"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "cast__inner"
+              ],
+              "children": [
+                {
+                  "tag": "h2",
+                  "classes": [
+                    "cast__title"
+                  ],
+                  "text": "Duas vidas, um plano",
+                  "attrs": {
+                    "builder-data-element": "heading"
+                  },
+                  "name": "title",
+                  "id": "h2-mwmapjl3-762"
+                },
+                {
+                  "tag": "figure",
+                  "classes": [
+                    "cast__figure"
+                  ],
+                  "attrs": {
+                    "builder-data-element": "figure",
+                    "name": "Figura das personagens"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "classes": [
+                        "cast__image"
+                      ],
+                      "attrs": {
+                        "builder-data-element": "image",
+                        "name": "Imagem das personagens",
+                        "src": "/uploads/gta6-05-screenshots.jpg",
+                        "alt": "Lucia e Jason abraçados numa pista de dança iluminada a néon.",
+                        "data-image-widths": "auto",
+                        "sizes": "(min-width: 80rem) 80rem, 100vw"
+                      },
+                      "name": "image",
+                      "id": "img-mwmb004g-798"
+                    }
+                  ],
+                  "name": "figure",
+                  "id": "figure-mwmb004g-797"
+                },
+                {
+                  "tag": "div",
+                  "classes": [
+                    "cast__grid"
+                  ],
+                  "children": [
+                    {
+                      "tag": "article",
+                      "classes": [
+                        "cast__card"
+                      ],
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "classes": [
+                            "cast__name"
+                          ],
+                          "text": "Lucia",
+                          "attrs": {
+                            "builder-data-element": "heading"
+                          },
+                          "name": "name",
+                          "id": "h3-mwmapjl3-765"
+                        },
+                        {
+                          "tag": "p",
+                          "classes": [
+                            "cast__role"
+                          ],
+                          "text": "Determinada, impulsiva e sempre um passo à frente. Lucia sabe o que custa a liberdade e está disposta a pagar por ela.",
+                          "attrs": {
+                            "builder-data-element": "text"
+                          },
+                          "name": "role",
+                          "id": "p-mwmapjl3-766"
+                        }
+                      ],
+                      "attrs": {
+                        "builder-data-element": "div"
+                      },
+                      "name": "card",
+                      "id": "article-mwmapjl3-764"
+                    },
+                    {
+                      "tag": "article",
+                      "classes": [
+                        "cast__card"
+                      ],
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "classes": [
+                            "cast__name"
+                          ],
+                          "text": "Jason",
+                          "attrs": {
+                            "builder-data-element": "heading"
+                          },
+                          "name": "name",
+                          "id": "h3-mwmapjl3-768"
+                        },
+                        {
+                          "tag": "p",
+                          "classes": [
+                            "cast__role"
+                          ],
+                          "text": "Leal e calculista, Jason entra no crime por necessidade e fica por causa de Lucia. Juntos formam a dupla mais perigosa do estado.",
+                          "attrs": {
+                            "builder-data-element": "text"
+                          },
+                          "name": "role",
+                          "id": "p-mwmapjl3-769"
+                        }
+                      ],
+                      "attrs": {
+                        "builder-data-element": "div"
+                      },
+                      "name": "card",
+                      "id": "article-mwmapjl3-767"
+                    }
+                  ],
+                  "attrs": {
+                    "builder-data-element": "div"
+                  },
+                  "name": "grid",
+                  "id": "div-mwmapjl3-763"
+                }
+              ],
+              "attrs": {
+                "builder-data-element": "div"
+              },
+              "name": "inner",
+              "id": "div-mwmapjl3-761"
+            }
+          ],
+          "name": "cast",
+          "id": "section-mwmapjl3-760"
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "features"
+          ],
+          "attrs": {
+            "builder-data-element": "section",
+            "name": "Destaques"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "features__inner"
+              ],
+              "children": [
+                {
+                  "tag": "h2",
+                  "classes": [
+                    "features__title"
+                  ],
+                  "text": "O que esperar",
+                  "attrs": {
+                    "builder-data-element": "heading"
+                  },
+                  "name": "title",
+                  "id": "h2-mwmapjl3-772"
+                },
+                {
+                  "tag": "div",
+                  "classes": [
+                    "features__grid"
+                  ],
+                  "children": [
+                    {
+                      "tag": "article",
+                      "classes": [
+                        "features__item"
+                      ],
+                      "children": [
+                        {
+                          "tag": "img",
+                          "classes": [
+                            "features__image"
+                          ],
+                          "attrs": {
+                            "builder-data-element": "image",
+                            "name": "Imagem do destaque",
+                            "src": "/uploads/gta6-07-leonida.jpg",
+                            "alt": "Homem de boné e óculos de sol numa boia de flamingo cor-de-rosa numa piscina, vista de cima.",
+                            "data-image-widths": "auto",
+                            "sizes": "(min-width: 80rem) 20rem, 50vw"
+                          },
+                          "name": "image",
+                          "id": "img-mwmb004g-799"
+                        },
+                        {
+                          "tag": "h3",
+                          "classes": [
+                            "features__name"
+                          ],
+                          "text": "Mundo vivo",
+                          "attrs": {
+                            "builder-data-element": "heading"
+                          },
+                          "name": "name",
+                          "id": "h3-mwmapjl3-775"
+                        },
+                        {
+                          "tag": "p",
+                          "classes": [
+                            "features__text"
+                          ],
+                          "text": "Cidadãos, trânsito e fauna que reagem ao que fazes, de dia e de noite.",
+                          "attrs": {
+                            "builder-data-element": "text"
+                          },
+                          "name": "text",
+                          "id": "p-mwmapjl3-776"
+                        }
+                      ],
+                      "attrs": {
+                        "builder-data-element": "div"
+                      },
+                      "name": "item",
+                      "id": "article-mwmapjl3-774"
+                    },
+                    {
+                      "tag": "article",
+                      "classes": [
+                        "features__item"
+                      ],
+                      "children": [
+                        {
+                          "tag": "img",
+                          "classes": [
+                            "features__image"
+                          ],
+                          "attrs": {
+                            "builder-data-element": "image",
+                            "name": "Imagem do destaque",
+                            "src": "/uploads/gta6-02-launch-trailer.jpg",
+                            "alt": "Jason de pé e Lucia sentada no capot de um carro vermelho, a carregar armas ao pôr do sol.",
+                            "data-image-widths": "auto",
+                            "sizes": "(min-width: 80rem) 20rem, 50vw"
+                          },
+                          "name": "image",
+                          "id": "img-mwmb004g-800"
+                        },
+                        {
+                          "tag": "h3",
+                          "classes": [
+                            "features__name"
+                          ],
+                          "text": "Dois protagonistas",
+                          "attrs": {
+                            "builder-data-element": "heading"
+                          },
+                          "name": "name",
+                          "id": "h3-mwmapjl3-778"
+                        },
+                        {
+                          "tag": "p",
+                          "classes": [
+                            "features__text"
+                          ],
+                          "text": "Alterna entre Lucia e Jason numa narrativa que se cruza a cada missão.",
+                          "attrs": {
+                            "builder-data-element": "text"
+                          },
+                          "name": "text",
+                          "id": "p-mwmapjl3-779"
+                        }
+                      ],
+                      "attrs": {
+                        "builder-data-element": "div"
+                      },
+                      "name": "item",
+                      "id": "article-mwmapjl3-777"
+                    },
+                    {
+                      "tag": "article",
+                      "classes": [
+                        "features__item"
+                      ],
+                      "children": [
+                        {
+                          "tag": "img",
+                          "classes": [
+                            "features__image"
+                          ],
+                          "attrs": {
+                            "builder-data-element": "image",
+                            "name": "Imagem do destaque",
+                            "src": "/uploads/gta6-04-vice-city.jpg",
+                            "alt": "Um casal armado diante do néon do Ocean View Hotel, com um carro vermelho atrás.",
+                            "data-image-widths": "auto",
+                            "sizes": "(min-width: 80rem) 20rem, 50vw"
+                          },
+                          "name": "image",
+                          "id": "img-mwmb004g-801"
+                        },
+                        {
+                          "tag": "h3",
+                          "classes": [
+                            "features__name"
+                          ],
+                          "text": "Vice City renovada",
+                          "attrs": {
+                            "builder-data-element": "heading"
+                          },
+                          "name": "name",
+                          "id": "h3-mwmapjl3-781"
+                        },
+                        {
+                          "tag": "p",
+                          "classes": [
+                            "features__text"
+                          ],
+                          "text": "Uma cidade icónica reimaginada, com bairros que têm identidade própria.",
+                          "attrs": {
+                            "builder-data-element": "text"
+                          },
+                          "name": "text",
+                          "id": "p-mwmapjl3-782"
+                        }
+                      ],
+                      "attrs": {
+                        "builder-data-element": "div"
+                      },
+                      "name": "item",
+                      "id": "article-mwmapjl3-780"
+                    },
+                    {
+                      "tag": "article",
+                      "classes": [
+                        "features__item"
+                      ],
+                      "children": [
+                        {
+                          "tag": "img",
+                          "classes": [
+                            "features__image"
+                          ],
+                          "attrs": {
+                            "builder-data-element": "image",
+                            "name": "Imagem do destaque",
+                            "src": "/uploads/gta6-06-media.jpg",
+                            "alt": "Lucia e Jason equipados para um assalto num cofre de banco, com notas a voar.",
+                            "data-image-widths": "auto",
+                            "sizes": "(min-width: 80rem) 20rem, 50vw"
+                          },
+                          "name": "image",
+                          "id": "img-mwmb004g-802"
+                        },
+                        {
+                          "tag": "h3",
+                          "classes": [
+                            "features__name"
+                          ],
+                          "text": "Liberdade total",
+                          "attrs": {
+                            "builder-data-element": "heading"
+                          },
+                          "name": "name",
+                          "id": "h3-mwmapjl3-784"
+                        },
+                        {
+                          "tag": "p",
+                          "classes": [
+                            "features__text"
+                          ],
+                          "text": "Missões, negócios, assaltos ou apenas uma volta de carro pela costa.",
+                          "attrs": {
+                            "builder-data-element": "text"
+                          },
+                          "name": "text",
+                          "id": "p-mwmapjl3-785"
+                        }
+                      ],
+                      "attrs": {
+                        "builder-data-element": "div"
+                      },
+                      "name": "item",
+                      "id": "article-mwmapjl3-783"
+                    }
+                  ],
+                  "attrs": {
+                    "builder-data-element": "div"
+                  },
+                  "name": "grid",
+                  "id": "div-mwmapjl3-773"
+                }
+              ],
+              "attrs": {
+                "builder-data-element": "div"
+              },
+              "name": "inner",
+              "id": "div-mwmapjl3-771"
+            }
+          ],
+          "name": "features",
+          "id": "section-mwmapjl3-770"
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "gallery"
+          ],
+          "attrs": {
+            "builder-data-element": "section",
+            "name": "Galeria"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "gallery__inner"
+              ],
+              "children": [
+                {
+                  "tag": "h2",
+                  "classes": [
+                    "gallery__title"
+                  ],
+                  "text": "O mundo de Leonida",
+                  "attrs": {
+                    "builder-data-element": "heading"
+                  },
+                  "name": "title",
+                  "id": "h2-mwmb004g-805"
+                },
+                {
+                  "tag": "figure",
+                  "classes": [
+                    "gallery__figure"
+                  ],
+                  "attrs": {
+                    "builder-data-element": "figure",
+                    "name": "Figura da galeria"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "classes": [
+                        "gallery__image"
+                      ],
+                      "attrs": {
+                        "builder-data-element": "image",
+                        "name": "Imagem da galeria",
+                        "src": "/uploads/gta6-01-poster.jpg",
+                        "alt": "Colagem de arte oficial do jogo com Lucia e Jason, um helicóptero, uma lancha, um carro desportivo, um crocodilo e outras personagens à volta do logótipo.",
+                        "data-image-widths": "auto",
+                        "sizes": "(min-width: 80rem) 80rem, 100vw"
+                      },
+                      "name": "image",
+                      "id": "img-mwmb004g-807"
+                    },
+                    {
+                      "tag": "figcaption",
+                      "classes": [
+                        "gallery__caption"
+                      ],
+                      "text": "Arte oficial de Grand Theft Auto VI, © Rockstar Games.",
+                      "name": "caption",
+                      "id": "figcaption-mwmb004g-808",
+                      "attrs": {
+                        "builder-data-element": "text"
+                      }
+                    }
+                  ],
+                  "name": "figure",
+                  "id": "figure-mwmb004g-806"
+                }
+              ],
+              "attrs": {
+                "builder-data-element": "div"
+              },
+              "name": "inner",
+              "id": "div-mwmb004g-804"
+            }
+          ],
+          "name": "gallery",
+          "id": "section-mwmb004g-803"
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "cta"
+          ],
+          "attrs": {
+            "builder-data-element": "section",
+            "name": "Chamada final"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "classes": [
+                "cta__image"
+              ],
+              "attrs": {
+                "builder-data-element": "image",
+                "name": "Imagem da chamada final",
+                "src": "/uploads/gta6-08-music.jpg",
+                "alt": "Ilustração de Lucia e Jason encostados a um carro, com a skyline de Vice City ao pôr do sol.",
+                "data-image-widths": "auto",
+                "sizes": "100vw"
+              },
+              "name": "image",
+              "id": "img-mwmb004g-809"
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "cta__inner"
+              ],
+              "children": [
+                {
+                  "tag": "h2",
+                  "classes": [
+                    "cta__title"
+                  ],
+                  "text": "A espera está quase a acabar",
+                  "attrs": {
+                    "builder-data-element": "heading"
+                  },
+                  "name": "title",
+                  "id": "h2-mwmapjl3-788"
+                },
+                {
+                  "tag": "p",
+                  "classes": [
+                    "cta__text"
+                  ],
+                  "text": "Prepara-te para regressar a Vice City.",
+                  "attrs": {
+                    "builder-data-element": "text"
+                  },
+                  "name": "text",
+                  "id": "p-mwmapjl3-789"
+                },
+                {
+                  "tag": "a",
+                  "classes": [
+                    "btn",
+                    "btn--primary",
+                    "btn--xl"
+                  ],
+                  "attrs": {
+                    "builder-data-element": "link",
+                    "href": "#historia"
+                  },
+                  "text": "Voltar ao início da história",
+                  "id": "a-mwmapjl3-790"
+                },
+                {
+                  "tag": "p",
+                  "classes": [
+                    "cta__note"
+                  ],
+                  "text": "Página de fãs não oficial. Grand Theft Auto é uma marca da Take-Two Interactive e da Rockstar Games.",
+                  "attrs": {
+                    "builder-data-element": "text"
+                  },
+                  "name": "note",
+                  "id": "p-mwmapjl3-791"
+                }
+              ],
+              "attrs": {
+                "builder-data-element": "div"
+              },
+              "name": "inner",
+              "id": "div-mwmapjl3-787"
+            }
+          ],
+          "name": "cta",
+          "id": "section-mwmapjl3-786"
+        }
+      ],
+      "seo": {
+        "description": "Página de fãs sobre Grand Theft Auto VI: data de lançamento, plataformas, Leonida, Lucia e Jason, e tudo o que se sabe do novo jogo da Rockstar Games."
+      },
+      "stylesheets": [
+        {
+          "id": "sheet-mwmapxpt-1",
+          "name": "Page",
+          "rules": [
+            {
+              "selector": ".hero",
+              "css": "position: relative; isolation: isolate; overflow: hidden; background: radial-gradient(circle at 85% 15%, var(--primary-60), transparent 55%), var(--base); padding-block: var(--section-space-xxl); padding-inline: var(--site-padding); min-block-size: 80vh; display: grid; align-items: center; &::after { content: \"\"; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, var(--base-90), var(--base-30)); }"
+            },
+            {
+              "selector": ".hero__inner",
+              "css": "position: relative; inline-size: 100%; max-inline-size: var(--content-width); margin-inline: auto; display: grid; gap: var(--container-spacing); justify-items: start;"
+            },
+            {
+              "selector": ".hero__eyebrow",
+              "css": "color: var(--primary-200); font-size: var(--text-s);"
+            },
+            {
+              "selector": ".hero__title",
+              "css": "color: var(--white); font-size: var(--h1);"
+            },
+            {
+              "selector": ".hero__lead",
+              "css": "color: var(--white); font-size: var(--text-xl); max-inline-size: 40ch;"
+            },
+            {
+              "selector": ".hero__actions",
+              "css": "display: flex; flex-wrap: wrap; gap: var(--space-m);"
+            },
+            {
+              "selector": ".facts",
+              "css": "background: var(--primary); padding-block: var(--section-space-s); padding-inline: var(--site-padding);"
+            },
+            {
+              "selector": ".facts__inner",
+              "css": "max-inline-size: var(--content-width); margin-inline: auto;"
+            },
+            {
+              "selector": ".facts__list",
+              "css": "display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: var(--grid-gap); list-style: none; padding: 0; margin: 0;"
+            },
+            {
+              "selector": ".facts__item",
+              "css": "display: grid; gap: var(--space-xxs);"
+            },
+            {
+              "selector": ".facts__label",
+              "css": "color: var(--white); font-size: var(--text-s);"
+            },
+            {
+              "selector": ".facts__value",
+              "css": "color: var(--white); font-size: var(--text-l);"
+            },
+            {
+              "selector": ".story",
+              "css": "padding-block: var(--section-space-l); padding-inline: var(--site-padding);"
+            },
+            {
+              "selector": ".story__inner",
+              "css": "max-inline-size: var(--content-width); margin-inline: auto; display: grid; gap: var(--container-spacing);"
+            },
+            {
+              "selector": ".story__title",
+              "css": "font-size: var(--h2);"
+            },
+            {
+              "selector": ".story__text",
+              "css": "font-size: var(--text-l); max-inline-size: 65ch;"
+            },
+            {
+              "selector": ".cast",
+              "css": "background: var(--base); padding-block: var(--section-space-l); padding-inline: var(--site-padding);"
+            },
+            {
+              "selector": ".cast__inner",
+              "css": "max-inline-size: var(--content-width); margin-inline: auto; display: grid; gap: var(--container-spacing);"
+            },
+            {
+              "selector": ".cast__title",
+              "css": "color: var(--white); font-size: var(--h2);"
+            },
+            {
+              "selector": ".cast__grid",
+              "css": "display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: var(--grid-gap);"
+            },
+            {
+              "selector": ".cast__card",
+              "css": "display: grid; gap: var(--content-spacing); padding: var(--space-l); border: var(--border-width) solid var(--primary); border-radius: var(--radius-l); background: var(--white-10);"
+            },
+            {
+              "selector": ".cast__name",
+              "css": "color: var(--primary-200); font-size: var(--h3);"
+            },
+            {
+              "selector": ".cast__role",
+              "css": "color: var(--white);"
+            },
+            {
+              "selector": ".features",
+              "css": "padding-block: var(--section-space-l); padding-inline: var(--site-padding);"
+            },
+            {
+              "selector": ".features__inner",
+              "css": "max-inline-size: var(--content-width); margin-inline: auto; display: grid; gap: var(--container-spacing);"
+            },
+            {
+              "selector": ".features__title",
+              "css": "font-size: var(--h2);"
+            },
+            {
+              "selector": ".features__grid",
+              "css": "display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: var(--grid-gap);"
+            },
+            {
+              "selector": ".features__item",
+              "css": "display: grid; gap: var(--space-s); padding: var(--space-l); border: var(--border); border-radius: var(--radius-m); box-shadow: var(--shadow-s); align-content: start;"
+            },
+            {
+              "selector": ".features__name",
+              "css": "font-size: var(--h4);"
+            },
+            {
+              "selector": ".features__text",
+              "css": ""
+            },
+            {
+              "selector": ".cta",
+              "css": "position: relative; isolation: isolate; overflow: hidden; background: var(--base); padding-block: var(--section-space-xl); padding-inline: var(--site-padding); text-align: center; &::after { content: \"\"; position: absolute; inset: 0; z-index: -1; background: var(--base-70); }"
+            },
+            {
+              "selector": ".cta__inner",
+              "css": "position: relative; max-inline-size: var(--content-width-inset); margin-inline: auto; display: grid; gap: var(--container-spacing); justify-items: center;"
+            },
+            {
+              "selector": ".cta__title",
+              "css": "color: var(--white); font-size: var(--h1);"
+            },
+            {
+              "selector": ".cta__text",
+              "css": "color: var(--white); font-size: var(--text-l);"
+            },
+            {
+              "selector": ".cta__note",
+              "css": "color: var(--white); font-size: var(--text-xs);"
+            },
+            {
+              "selector": ".hero__image",
+              "css": "position: absolute; inset: 0; z-index: -2; inline-size: 100%; block-size: 100%; object-fit: cover; object-position: 70% center;"
+            },
+            {
+              "selector": ".story__figure",
+              "css": "margin: 0;"
+            },
+            {
+              "selector": ".story__image",
+              "css": "display: block; inline-size: 100%; aspect-ratio: 21 / 9; object-fit: cover; border-radius: var(--radius-l); box-shadow: var(--shadow-m);"
+            },
+            {
+              "selector": ".cast__figure",
+              "css": "margin: 0;"
+            },
+            {
+              "selector": ".cast__image",
+              "css": "display: block; inline-size: 100%; aspect-ratio: 21 / 9; object-fit: cover; object-position: center 30%; border-radius: var(--radius-l);"
+            },
+            {
+              "selector": ".features__image",
+              "css": "display: block; inline-size: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius-s);"
+            },
+            {
+              "selector": ".gallery",
+              "css": "padding-block: var(--section-space-l); padding-inline: var(--site-padding);"
+            },
+            {
+              "selector": ".gallery__inner",
+              "css": "max-inline-size: var(--content-width); margin-inline: auto; display: grid; gap: var(--container-spacing);"
+            },
+            {
+              "selector": ".gallery__title",
+              "css": "font-size: var(--h2);"
+            },
+            {
+              "selector": ".gallery__figure",
+              "css": "margin: 0; display: grid; gap: var(--space-s);"
+            },
+            {
+              "selector": ".gallery__image",
+              "css": "display: block; inline-size: 100%; block-size: auto; border-radius: var(--radius-l); box-shadow: var(--shadow-m);"
+            },
+            {
+              "selector": ".gallery__caption",
+              "css": "font-size: var(--text-xs);"
+            },
+            {
+              "selector": ".cta__image",
+              "css": "position: absolute; inset: 0; z-index: -2; inline-size: 100%; block-size: 100%; object-fit: cover; object-position: center;"
+            }
+          ]
+        }
+      ]
+    },
+    "index": {
+      "route": "index",
+      "title": "Home",
+      "root": [
+        {
+          "id": "section-mwl979ky-166",
+          "tag": "section",
+          "attrs": {
+            "builder-data-element": "section"
+          },
+          "children": [
+            {
+              "id": "div-mwl979ky-167",
+              "tag": "div",
+              "attrs": {
+                "builder-data-element": "container"
+              },
+              "children": [
+                {
+                  "id": "div-mwl97amc-168",
+                  "tag": "div",
+                  "attrs": {
+                    "builder-data-element": "container"
+                  },
+                  "children": [
+                    {
+                      "id": "h2-mwl98c8s-170",
+                      "tag": "h2",
+                      "attrs": {
+                        "builder-data-element": "heading"
+                      },
+                      "text": "Heading",
+                      "classes": [
+                        "hero-sec__title"
+                      ]
+                    },
+                    {
+                      "id": "p-mwl98fjf-171",
+                      "tag": "p",
+                      "attrs": {
+                        "builder-data-element": "text"
+                      },
+                      "text": "Text goes here.",
+                      "classes": [
+                        "hero-sec__text"
+                      ]
+                    }
+                  ],
+                  "name": "Cont-texto",
+                  "classes": [
+                    "hero-sec__cont-texto"
+                  ]
+                },
+                {
+                  "id": "div-mwl97i96-169",
+                  "tag": "div",
+                  "attrs": {
+                    "builder-data-element": "container"
+                  },
+                  "children": [
+                    {
+                      "id": "figure-mwl9aoll-173",
+                      "tag": "figure",
+                      "attrs": {
+                        "builder-data-element": "figure"
+                      },
+                      "children": [
+                        {
+                          "id": "img-mwl9aoll-172",
+                          "tag": "img",
+                          "attrs": {
+                            "builder-data-element": "image",
+                            "src": "/placeholder.svg",
+                            "alt": "",
+                            "data-image-widths": "auto",
+                            "sizes": "100vw"
+                          },
+                          "classes": [
+                            "hero-sec__image"
+                          ]
+                        }
+                      ],
+                      "classes": [
+                        "hero-sec__figure",
+                        "cont-img__figure"
+                      ]
+                    }
+                  ],
+                  "name": "Cont-img",
+                  "classes": [
+                    "hero-sec__cont-img"
+                  ]
+                }
+              ],
+              "name": "hero-sec",
+              "classes": [
+                "hero-sec"
+              ]
+            }
+          ]
+        }
+      ],
+      "stylesheets": [
+        {
+          "id": "global",
+          "name": "Global",
+          "rules": []
+        }
+      ],
+      "seo": {
+        "noindex": false
+      }
+    },
+    "teste-de-colecao": {
+      "route": "teste-de-colecao",
+      "title": "Teste de coleção",
+      "root": [
+        {
+          "id": "section-mwm20lt1-8",
+          "tag": "section",
+          "attrs": {
+            "builder-data-element": "section"
+          },
+          "children": [
+            {
+              "id": "div-mwm20lt1-7",
+              "tag": "div",
+              "attrs": {
+                "builder-data-element": "container"
+              },
+              "children": [
+                {
+                  "id": "h2-mwm20lt1-6",
+                  "tag": "h1",
+                  "attrs": {
+                    "builder-data-element": "heading"
+                  },
+                  "text": "Teste de coleção",
+                  "classes": [
+                    "teste-de-colecao-archive__heading"
+                  ]
+                },
+                {
+                  "id": "div-mwm20lt1-5",
+                  "tag": "div",
+                  "attrs": {
+                    "builder-data-element": "div"
+                  },
+                  "children": [
+                    {
+                      "id": "loop-mwm20lt1-4",
+                      "tag": "loop",
+                      "attrs": {
+                        "builder-data-element": "loop"
+                      },
+                      "children": [
+                        {
+                          "id": "div-mwm20lt1-3",
+                          "tag": "article",
+                          "attrs": {
+                            "builder-data-element": "div"
+                          },
+                          "children": [
+                            {
+                              "id": "h2-mwm20lt1-2",
+                              "tag": "h2",
+                              "attrs": {
+                                "builder-data-element": "heading"
+                              },
+                              "classes": [
+                                "teste-de-colecao-archive__title"
+                              ],
+                              "children": [
+                                {
+                                  "id": "a-mwm20lt1-1",
+                                  "tag": "a",
+                                  "attrs": {
+                                    "builder-data-element": "link",
+                                    "href": "{item.url}"
+                                  },
+                                  "text": "{item.title}",
+                                  "classes": [
+                                    "teste-de-colecao-archive__link"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "classes": [
+                            "teste-de-colecao-archive__card"
+                          ]
+                        }
+                      ],
+                      "loop": {
+                        "source": "collection",
+                        "collection": "33pzziyz",
+                        "collectionSlug": "teste-de-colecao",
+                        "itemName": "item",
+                        "sortBy": "created",
+                        "sortDir": "desc"
+                      }
+                    }
+                  ],
+                  "classes": [
+                    "teste-de-colecao-archive__grid"
+                  ]
+                }
+              ]
+            }
+          ],
+          "classes": [
+            "teste-de-colecao-archive"
+          ]
+        }
+      ],
+      "stylesheets": [
+        {
+          "id": "global",
+          "name": "Global",
+          "rules": [
+            {
+              "selector": ".teste-de-colecao-archive__grid",
+              "css": "display: grid;\ngrid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));\ngap: var(--content-spacing);"
+            },
+            {
+              "selector": ".teste-de-colecao-archive__card",
+              "css": "display: flex;\nflex-direction: column;\ngap: var(--space-xs, 0.75rem);"
+            },
+            {
+              "selector": ".teste-de-colecao-archive__image",
+              "css": "aspect-ratio: 4 / 3;\nobject-fit: cover;\ninline-size: 100%;"
+            }
+          ]
+        }
+      ],
+      "draft": true
+    },
+    "teste-de-pagina": {
+      "route": "teste-de-pagina",
+      "title": "Teste de página",
+      "root": [],
+      "stylesheets": [
+        {
+          "id": "global",
+          "name": "Global",
+          "rules": []
+        }
+      ]
+    }
+  },
+  "emitted": {
+    "public/scripts/carousel.js": "c09f938202691e81",
+    "public/scripts/motion.js": "3a05f83b46bf6b6d",
+    "public/scripts/nav.js": "a72c00765ce02ef4",
+    "public/scripts/popup.js": "2379da48cc60077d",
+    "src/components/sitereal/RichText.astro": "bbda75e58291c7d0",
+    "src/components/starwind/tooltip/Tooltip.astro": "8febbe4fe52f0c0a+",
+    "src/data/teste-de-colecao.json": "37517e5f3dc66819",
+    "src/layouts/MainLayout.astro": "b19ca08e272a4844",
+    "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
+    "src/pages/_teste-de-colecao.astro": "1cb41c7b55b4c63a",
+    "src/pages/404.astro": "5ec606b648690e15",
+    "src/pages/gta-6.astro": "72922e389e8fa526",
+    "src/pages/index.astro": "64470019eceb7a7d",
+    "src/pages/teste-de-pagina.astro": "65923c71591551f1",
+    "src/styles/generated/framework.css": "dfef639f35993b0f",
+    "src/styles/generated/global.css": "a9d616ccf4aebee9",
+    "src/styles/generated/pages/gta-6.css": "3c14d3af84a693b4",
+    "src/styles/generated/pages/teste-de-colecao.css": "4d58a03662b00819"
+  }
+}
