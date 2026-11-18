@@ -23,7 +23,8 @@
         "host": false
       },
       "how": "git"
-    }
+    },
+    "url": "https://vndesignwork-creator.github.io/teste_sitereal_01/"
   },
   "addons": {
     "forms": true,
@@ -2203,11 +2204,11 @@
     "src/data/teste-de-colecao.json": "37517e5f3dc66819",
     "src/layouts/MainLayout.astro": "b19ca08e272a4844",
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
-    "src/pages/_teste-de-colecao.astro": "1cb41c7b55b4c63a",
-    "src/pages/404.astro": "5ec606b648690e15",
-    "src/pages/gta-6.astro": "72fc323ee6ff318c",
-    "src/pages/index.astro": "64470019eceb7a7d",
-    "src/pages/teste-de-pagina.astro": "65923c71591551f1",
+    "src/pages/_teste-de-colecao.astro": "30da58391ba17a40",
+    "src/pages/404.astro": "def50d6b857d6170",
+    "src/pages/gta-6.astro": "cf70a23d3c4d7bea",
+    "src/pages/index.astro": "606fd2c2248288a4",
+    "src/pages/teste-de-pagina.astro": "fbda6986515a212f",
     "src/styles/generated/framework.css": "dfef639f35993b0f",
     "src/styles/generated/global.css": "a9d616ccf4aebee9",
     "src/styles/generated/pages/gta-6.css": "4b43946a07ef0042",

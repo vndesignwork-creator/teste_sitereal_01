@@ -8,7 +8,7 @@ import testedecolecaoEntriesData from "../data/teste-de-colecao.json";
 let testedecolecaoEntries: Record<string, any>[] = testedecolecaoEntriesData;
 testedecolecaoEntries = testedecolecaoEntries.slice().sort((a, b) => -1 * ((x, y) => typeof x === 'number' && typeof y === 'number' ? x - y : ((x) => x instanceof Date ? x.toISOString() : String(x ?? ''))(x).localeCompare(((x) => x instanceof Date ? x.toISOString() : String(x ?? ''))(y)))((a.data?.created ?? a.created), (b.data?.created ?? b.created)));
 ---
-<Base title="Teste de coleção" siteName="Teste de" lang="pt-PT">
+<Base title="Teste de coleção" siteName="Teste de" canonical="https://vndesignwork-creator.github.io/teste_sitereal_01/teste-de-colecao" lang="pt-PT">
   <Fragment slot="head">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta property="og:locale" content="pt_PT" />
