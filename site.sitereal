@@ -24,7 +24,8 @@
       },
       "how": "git"
     },
-    "url": "https://vndesignwork-creator.github.io/teste_sitereal_01/"
+    "url": "https://vndesignwork-creator.github.io/teste_sitereal_01/",
+    "homepage": "gta-6"
   },
   "addons": {
     "forms": true,
@@ -2206,8 +2207,7 @@
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
     "src/pages/_teste-de-colecao.astro": "30da58391ba17a40",
     "src/pages/404.astro": "def50d6b857d6170",
-    "src/pages/gta-6.astro": "cf70a23d3c4d7bea",
-    "src/pages/index.astro": "606fd2c2248288a4",
+    "src/pages/index.astro": "1916d4e502b89f30",
     "src/pages/teste-de-pagina.astro": "fbda6986515a212f",
     "src/styles/generated/framework.css": "dfef639f35993b0f",
     "src/styles/generated/global.css": "a9d616ccf4aebee9",
