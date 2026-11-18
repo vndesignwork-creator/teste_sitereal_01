@@ -17,7 +17,13 @@
         "css": "src/styles/starwind.css"
       }
     },
-    "hosting": {}
+    "hosting": {
+      "actions": {
+        "github": true,
+        "host": false
+      },
+      "how": "git"
+    }
   },
   "addons": {
     "forms": true,
