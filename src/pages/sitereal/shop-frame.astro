@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/PlainBase.astro';
+import MainLayout from '../../layouts/MainLayout.astro';
+import '../../styles/generated/framework.css';
+import '../../styles/generated/global.css';
+import '../../styles/generated/shop-frame.css';
+---
+<Base title="Shop pages" noindex siteName="Teste de" canonical="https://vndesignwork-creator.github.io/teste_sitereal_01/sitereal/shop-frame/" lang="pt-PT">
+  <Fragment slot="head">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:locale" content="pt_PT" />
+    <meta name="author" content="Teste de" />
+  </Fragment>
+  <MainLayout>
+    <section class="shop-frame" builder-data-element="section">
+      <div builder-data-element="container">
+        <div builder-data-element="shop-frame-content" data-sitereal-frame="content"></div>
+      </div>
+    </section>
+  </MainLayout>
+</Base>

@@ -2,7 +2,22 @@
 
 /* Page */
 .hero {
-  position: relative; isolation: isolate; overflow: hidden; background: radial-gradient(circle at 85% 15%, var(--primary-60), transparent 55%), var(--base); padding-block: var(--section-space-xxl); padding-inline: var(--site-padding); min-block-size: 80vh; display: grid; align-items: center; &::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, var(--base-90), var(--base-30)); }
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: radial-gradient(circle at 85% 15%, var(--primary-60), transparent 55%), var(--base);
+  padding-block: var(--section-space-xxl);
+  padding-inline: var(--site-padding);
+  min-block-size: 80vh;
+  display: grid;
+  align-items: center;
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(90deg, var(--base-90), var(--base-30));
+  }
 }
 
 .hero__inner {
@@ -15,6 +30,14 @@
 
 .hero__title {
   color: var(--white); font-size: var(--h1);
+
+  @media (max-width: 768px) {
+    color: var(--focus-color);
+  }
+
+  @media (max-width: 390px) {
+    color: var(--base-300);
+  }
 }
 
 .hero__lead {
