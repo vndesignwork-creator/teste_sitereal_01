@@ -53,3 +53,7 @@
 .hero-sec__title:hover {
   translate: 0 6px; scale: 1.07;
 }
+
+.cont-teste {
+  padding: var(--space-m); background: #1aefe1; border-width: 1px; border-style: solid; border-radius: var(--radius-l);
+}
