@@ -29,7 +29,7 @@
 }
 
 .hero__title {
-  color: var(--link-color); font-size: var(--h1);
+  color: #c92f2f; font-size: var(--h1);
 
   @media (max-width: 768px) {
     color: var(--primary-200);
