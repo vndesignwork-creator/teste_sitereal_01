@@ -1929,7 +1929,7 @@
             },
             {
               "selector": ".hero__title",
-              "css": "color: #c82fc9; font-size: var(--h1);\n\n@media (max-width: 768px) {\n  color: var(--primary-200);\n  text-align: center;\n}\n\n@media (max-width: 390px) {\n  color: var(--base-300);\n}"
+              "css": "color: var(--focus-color); font-size: var(--h1);\n\n@media (max-width: 768px) {\n  color: var(--primary-200);\n  text-align: center;\n}\n\n@media (max-width: 390px) {\n  color: var(--base-300);\n}"
             },
             {
               "selector": ".hero__lead",
@@ -2378,7 +2378,7 @@
     "src/pages/teste-de-pagina.astro": "fbda6986515a212f",
     "src/styles/generated/framework.css": "aa4778b355330a4d",
     "src/styles/generated/global.css": "d2dfcd7f3577d6e6",
-    "src/styles/generated/pages/gta-6.css": "f9e8d571e9e6e761",
+    "src/styles/generated/pages/gta-6.css": "c9f269c3a6f73fa3",
     "src/styles/generated/pages/teste-de-colecao.css": "4d58a03662b00819",
     "src/styles/generated/shop-frame.css": "996d6f99d57b67b7"
   }
