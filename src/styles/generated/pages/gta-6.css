@@ -32,7 +32,8 @@
   color: var(--link-color); font-size: var(--h1);
 
   @media (max-width: 768px) {
-    color: var(--base-300);
+    color: var(--primary-200);
+    text-align: center;
   }
 
   @media (max-width: 390px) {
