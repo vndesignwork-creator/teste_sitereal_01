@@ -29,7 +29,7 @@
 }
 
 .hero__title {
-  color: #c92f2f; font-size: var(--h1);
+  color: #c82fc9; font-size: var(--h1);
 
   @media (max-width: 768px) {
     color: var(--primary-200);
@@ -98,7 +98,7 @@
 }
 
 .cast__title {
-  color: var(--white); font-size: var(--h2);
+  color: var(--white); font-size: var(--h2); padding: 2rem;
 }
 
 .cast__grid {

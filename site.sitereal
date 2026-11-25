@@ -838,6 +838,16 @@
                   "name": "title"
                 },
                 {
+                  "id": "output-mwwpoxfp-1",
+                  "tag": "output",
+                  "attrs": {
+                    "builder-data-element": "form-calc",
+                    "data-form-calc": "amount * 10",
+                    "data-form-calc-format": "0.00"
+                  },
+                  "text": "0"
+                },
+                {
                   "id": "p-mwmapjl3-736",
                   "tag": "p",
                   "classes": [
@@ -1919,7 +1929,7 @@
             },
             {
               "selector": ".hero__title",
-              "css": "color: #c92f2f; font-size: var(--h1);\n\n@media (max-width: 768px) {\n  color: var(--primary-200);\n  text-align: center;\n}\n\n@media (max-width: 390px) {\n  color: var(--base-300);\n}"
+              "css": "color: #c82fc9; font-size: var(--h1);\n\n@media (max-width: 768px) {\n  color: var(--primary-200);\n  text-align: center;\n}\n\n@media (max-width: 390px) {\n  color: var(--base-300);\n}"
             },
             {
               "selector": ".hero__lead",
@@ -1979,7 +1989,7 @@
             },
             {
               "selector": ".cast__title",
-              "css": "color: var(--white); font-size: var(--h2);"
+              "css": "color: var(--white); font-size: var(--h2); padding: 2rem;"
             },
             {
               "selector": ".cast__grid",
@@ -2363,12 +2373,12 @@
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
     "src/pages/_teste-de-colecao.astro": "30da58391ba17a40",
     "src/pages/404.astro": "def50d6b857d6170",
-    "src/pages/index.astro": "4a5f8227cc68d262",
+    "src/pages/index.astro": "d9b6e0b6fc7dd515",
     "src/pages/sitereal/shop-frame.astro": "2c26c6d19dcbcc0a",
     "src/pages/teste-de-pagina.astro": "fbda6986515a212f",
     "src/styles/generated/framework.css": "aa4778b355330a4d",
     "src/styles/generated/global.css": "d2dfcd7f3577d6e6",
-    "src/styles/generated/pages/gta-6.css": "0794f65046d64490",
+    "src/styles/generated/pages/gta-6.css": "f9e8d571e9e6e761",
     "src/styles/generated/pages/teste-de-colecao.css": "4d58a03662b00819",
     "src/styles/generated/shop-frame.css": "996d6f99d57b67b7"
   }
